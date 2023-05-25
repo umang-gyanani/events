@@ -7,6 +7,10 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.nav_box{
+
+        box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.05);
+}
 
 .f_poppin {
     font-family: 'poppins', 'sans-serif';
@@ -106,18 +110,23 @@
 
 
 }
+.text-overflow{
+    text-overflow: ellipsis !important;
+}
 
 .show_btn {
     padding: 11px 28px;
     background: #2C49FE;
     border-radius: 23px;
-    /* line-height: 150%; */
     border: none;
     white-space: nowrap;
 }
 
 .border_radius {
     border-radius: 30px;
+}
+.mw_401{
+    max-width: 401px;
 }
 
 .mw_4ch {
@@ -232,13 +241,19 @@ header ul li:not(:last-child) a {
 }
 
 .input{
-    BORDER:none
+    BORDER:none;
+    outline: none;
 }
 @media (max-width:992px) {
 
     div>a h1 {
         font-size: 30px !important;
     }
+    div>a img{
+        width: 70px;
+    }
+
+
 
 
 
@@ -334,5 +349,11 @@ header ul li:not(:last-child) a {
     a>span{
         display: none;
     }
+    div>img{
+        width: 50% !important                       ;
+    }
+        .text-overflow {
+            text-overflow: ellipsis !important;
+        }
 
 }
